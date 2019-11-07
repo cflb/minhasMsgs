@@ -7,6 +7,12 @@
     <title>Minhas Mensagens</title>
 </head>
 <body>
-    
+
+    <h3>Mensagems:</h3>
+    {% for msg in msgs %}
+        {{msg.mensagem}}
+        <br>
+    {% endfor %}
+
 </body>
 </html>

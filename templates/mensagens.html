@@ -8,5 +8,12 @@
 </head>
 <body>
     
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{form.mensagem.label}}: {{form.mensagem}}
+        <br>
+        {{form.botao}}
+    </form>
+
 </body>
 </html>
