@@ -10,6 +10,7 @@
     
     <form method="POST">
         {{ form.hidden_tag() }}
+        {{form.titulo.label}}: {{form.titulo}}
         {{form.mensagem.label}}: {{form.mensagem}}
         <br>
         {{form.botao}}
